@@ -1,77 +1,17 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="云间 · 光遇工具箱。打开今日攻略、图鉴、音乐练习和更多玩家工具。">
-  <meta name="theme-color" content="#eff4f2">
-  <title>云间 · 光遇工具箱 | Sky Light Compass</title>
-  <style>
-    :root {
-      color-scheme: light;
-      font: 16px/1.6 system-ui,"PingFang SC","Microsoft YaHei",sans-serif;
-      color: #263b43;
-      background: #eff4f2;
-    }
-    * { box-sizing: border-box }
-    body { margin: 0; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; padding: 20px }
-    main {
-      width: min(100%, 560px);
-      overflow: hidden;
-      border: 1px solid #c7d6d3;
-      border-radius: 25px;
-      background: #fafcfb;
-      box-shadow: 0 18px 45px rgb(45 77 82 / 9%);
-    }
-    .sky { display: block; width: 100%; height: auto; background: #dce9e7 }
-    .copy { padding: clamp(22px, 6vw, 40px); }
-    h1 { margin: 0; font-size: clamp(1.65rem, 6vw, 2.4rem); line-height: 1.15; }
-    p { margin: .7rem 0 1.4rem; color: #526b71 }
-    a {
-      display: inline-flex; align-items: center; gap: .65rem; min-height: 46px;
-      padding: .65rem 1.1rem; border-radius: 12px; text-decoration: none; font-weight: 650;
-      color: #fff; background: #315964;
-    }
-    a:hover { background: #244955 }
-    a:focus-visible { outline: 3px solid #3a756e; outline-offset: 4px }
-    @media (prefers-color-scheme: dark) {
-      :root { color-scheme: dark; color: #eaf1ef; background: #182b32 }
-      main { background: #243942; border-color: #435a61 }
-      p { color: #bbd0d2 }
-      a { background: #c7ddd6; color: #233e47 }
-      a:hover { background: #dcebe7 }
-      a:focus-visible { outline-color: #c7ddd6 }
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <svg class="sky" viewBox="0 0 560 196" aria-hidden="true" focusable="false">
-      <defs>
-        <linearGradient id="dawn" x1="0" x2="1" y1="0" y2="1" gradientUnits="objectBoundingBox">
-          <stop stop-color="#769ba3"/>
-          <stop offset="1" stop-color="#c8dbd2"/>
-        </linearGradient>
-      </defs>
-      <path fill="url(#dawn)" d="M0 0h560v196H0z"/>
-      <circle cx="396" cy="52" r="27" fill="#f2dda9"/>
-      <path fill="#c3d6d0" opacity=".6" d="M0 141q83-38 148-12t118-6q65-38 123-8t171 4v77H0Z"/>
-      <path fill="#587782" d="m195 126 92-33 88 24 43 17-57 16-46 37-44-30-47 3Z"/>
-      <path fill="#c8d6b4" d="m195 126 92-33 88 24 43 17-56 9-44-7-50 12Z"/>
-      <path fill="#ebdeb6" d="M313 112V89l12-13 12 13v29Z"/>
-      <path fill="#466771" d="M322 115V97q3-4 6 0v18Z"/>
-      <path d="M281 139q2 19-9 35" fill="none" stroke="#e0eae3" stroke-width="4" stroke-linecap="round"/>
-      <path d="m238 104 5-12 5 12-5 5Z" fill="#f4dfac"/>
-      <path d="M243 91q-2-5 0-9 4 5 0 9Z" fill="#fff2ce"/>
-      <path fill="#e4ece5" d="M0 174q46-24 89-8t84-1q46-20 97 6t116-2q82-28 174-4v31H0Z"/>
-    </svg>
-    <div class="copy">
-      <h1>云间 · 光遇工具箱</h1>
-      <p lang="en">Sky Light Compass</p>
-      <a href="https://sky-light-compass.sky-compass-lab-6c1f.workers.dev/">
-        进入工具箱 <span aria-hidden="true">→</span>
-      </a>
-    </div>
-  </main>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; connect-src 'self' https://sky-light-compass.sky-compass-lab-6c1f.workers.dev; object-src 'none'; base-uri 'none'">
+    <meta name="description" content="Daily guides, candle clocks, shard forecasts and personal plans for Sky: Children of the Light.">
+    <link rel="icon" href="/favicon.svg">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <title>Sky Light Compass</title>
+    <script type="module" crossorigin src="/assets/index-DBsLwQ91.js"></script>
+  </head>
+  <body class="antialiased">
+    <div id="root"></div>
+  </body>
 </html>
