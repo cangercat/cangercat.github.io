@@ -1,0 +1,19 @@
+Sky Light Compass local audio transcription components
+
+Spotify Basic Pitch 1.0.1
+Copyright 2022 Spotify AB.
+Apache License, Version 2.0. Full text: /music-model/LICENSE
+Source: https://github.com/spotify/basic-pitch-ts
+Exact published package: https://registry.npmjs.org/@spotify/basic-pitch/-/basic-pitch-1.0.1.tgz
+The model JSON and weight shard are unmodified. File hashes are in manifest.json.
+
+TensorFlow.js 3.21.0
+Copyright 2022 Google LLC. All Rights Reserved.
+Apache License, Version 2.0. Full text: /music-model/LICENSE
+Source: https://github.com/tensorflow/tfjs
+Exact published package: https://registry.npmjs.org/@tensorflow/tfjs/-/tfjs-3.21.0.tgz
+
+@tonejs/midi 2.0.28
+Copyright 2016 Yotam Mann. MIT licence.
+Full text: /licenses/music-tonejs-midi.txt
+Source: https://github.com/Tonejs/Midi

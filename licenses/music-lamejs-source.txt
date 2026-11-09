@@ -1,0 +1,12 @@
+lamejs 1.2.7 (@breezystack/lamejs)
+
+Unmodified MP3 encoder used as a separate, lazily loaded JavaScript module.
+License: GNU Lesser General Public License version 3.0.
+Full licence: /licenses/music-lamejs.txt
+Source repository: https://github.com/shijinyu/lamejs
+Exact published source package: https://registry.npmjs.org/@breezystack/lamejs/-/lamejs-1.2.7.tgz
+Package metadata: https://registry.npmjs.org/@breezystack/lamejs/1.2.7
+
+Sky Light Compass builds the published module without modifying its source.
+To replace the encoder in a source checkout, install a compatible replacement
+for @breezystack/lamejs and rebuild the site's lazy audio-export chunk.

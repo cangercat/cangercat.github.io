@@ -1,0 +1,11 @@
+/* Only the public application shell and public static assets. Account/API responses never enter this cache. */
+const CACHE='sky-compass-music-independent-v35';
+const allowed=url=>url.origin===self.location.origin&&!url.search&&(/^\/(?:_next\/static\/|assets\/|music-model\/|app-icons\/|game-ui\/|catalogue-icons\/)/.test(url.pathname)||['/','/favicon.svg','/manifest.webmanifest'].includes(url.pathname));
+async function remember(cache,url){if(!allowed(url))return;const request=new Request(url.href,{credentials:'omit',cache:'reload'}),response=await fetch(request);if(!response.ok||response.redirected)throw new Error('fetch');const size=Number(response.headers.get('content-length')||0);if(size>12*1024*1024)return;await cache.put(request,response);}
+self.addEventListener('install',event=>{event.waitUntil(self.skipWaiting())});
+self.addEventListener('activate',event=>{event.waitUntil(Promise.all([self.clients.claim(),caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('sky-compass-music-')&&k!==CACHE).map(k=>caches.delete(k))))]))});
+self.addEventListener('message',event=>{if(event.data?.type!=='prepare-music')return;event.waitUntil((async()=>{try{const cache=await caches.open(CACHE),urls=['/','/favicon.svg','/manifest.webmanifest',...(Array.isArray(event.data.assets)?event.data.assets.slice(0,100):[])];for(const raw of urls)if(typeof raw==='string')await remember(cache,new URL(raw,self.location.origin));event.ports[0]?.postMessage({ok:true})}catch{event.ports[0]?.postMessage({ok:false})}})())});
+self.addEventListener('fetch',event=>{const request=event.request,url=new URL(request.url);if(request.method!=='GET'||!allowed(url)||url.search)return;
+ if(request.mode==='navigate'&&url.pathname==='/'){event.respondWith(fetch(request).catch(async()=>await(await caches.open(CACHE)).match('/')||Response.error()));return;}
+ event.respondWith((async()=>{const cache=await caches.open(CACHE),cached=await cache.match(request);if(cached)return cached;const response=await fetch(request);if(response.ok&&!response.redirected){const size=Number(response.headers.get('content-length')||0);if(size<=12*1024*1024){const keys=await cache.keys();if(keys.length<160)await cache.put(request,response.clone())}}return response})());
+});

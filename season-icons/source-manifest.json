@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-25T10:37:49.731Z",
+  "source": {
+    "repository": "thatskyapplication/thatskyapplication",
+    "revision": "3e67e65e9b13ca980ddfe600a11709c84f07d323",
+    "mappingLicense": "MIT",
+    "imageRights": "TGC and community artwork; existing images are not established as MIT by the metadata license",
+    "derivePath": "packages/utility/source/emojis/derive.ts",
+    "productionPath": "packages/utility/source/emojis/production.ts",
+    "url": "https://github.com/thatskyapplication/thatskyapplication/tree/3e67e65e9b13ca980ddfe600a11709c84f07d323/packages/utility/source/emojis"
+  },
+  "items": [
+    {
+      "seasonId": 0,
+      "enumName": "Gratitude",
+      "emojiId": "1400926220174098543",
+      "path": "/season-icons/0.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1400926220174098543.webp?size=128&quality=lossless",
+      "bytes": 18450,
+      "sha256": "82474af73db3c045207a6fe9140d7a1d5946ce2cf7dc1e861a95355f5e641800"
+    },
+    {
+      "seasonId": 1,
+      "enumName": "Lightseekers",
+      "emojiId": "1561010156693618768",
+      "path": "/season-icons/1.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1561010156693618768.webp?size=128&quality=lossless",
+      "bytes": 16528,
+      "sha256": "3b60db0ce0f4ccc2288984dfd77c0e0a949924a1f66ce882f199a37fa33895e4"
+    },
+    {
+      "seasonId": 2,
+      "enumName": "Belonging",
+      "emojiId": "1400928944210841672",
+      "path": "/season-icons/2.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1400928944210841672.webp?size=128&quality=lossless",
+      "bytes": 17534,
+      "sha256": "bcc5a7f4708229f77634a405d18a854e8fec68e5ecd25675cca2652b54b72c8c"
+    },
+    {
+      "seasonId": 3,
+      "enumName": "Rhythm",
+      "emojiId": "1400921906718314516",
+      "path": "/season-icons/3.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1400921906718314516.webp?size=128&quality=lossless",
+      "bytes": 18344,
+      "sha256": "06213ad33582690390490cb05a2305a132656ba9d2b1dd87d55d310c938d4165"
+    },
+    {
+      "seasonId": 4,
+      "enumName": "Enchantment",
+      "emojiId": "1400926943150608394",
+      "path": "/season-icons/4.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1400926943150608394.webp?size=128&quality=lossless",
+      "bytes": 18996,
+      "sha256": "67e7dcaf128f3e9b62a32c42c0f46d40a0e75a4b11bbc60d0d1146bb26e4003c"
+    },
+    {
+      "seasonId": 5,
+      "enumName": "Sanctuary",
+      "emojiId": "1561009851725905960",
+      "path": "/season-icons/5.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1561009851725905960.webp?size=128&quality=lossless",
+      "bytes": 18622,
+      "sha256": "c4de1e3323cd0824019b7a501616c2856b5da3bb5764e770aea88738150b6acc"
+    },
+    {
+      "seasonId": 6,
+      "enumName": "Prophecy",
+      "emojiId": "1400935411819217051",
+      "path": "/season-icons/6.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1400935411819217051.webp?size=128&quality=lossless",
+      "bytes": 21474,
+      "sha256": "fd92d8f00c127e867e890557c10fb64d3bf6bb7e8c3bdea940c4e3faa231a1cc"
+    },
+    {
+      "seasonId": 7,
+      "enumName": "Dreams",
+      "emojiId": "1561010159864774656",
+      "path": "/season-icons/7.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1561010159864774656.webp?size=128&quality=lossless",
+      "bytes": 18936,
+      "sha256": "3fbfa4df1855c13efe10fa57a8f8bf16dc06a266aac62593a6835e5675c58147"
+    },
+    {
+      "seasonId": 8,
+      "enumName": "Assembly",
+      "emojiId": "1561010164285579415",
+      "path": "/season-icons/8.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1561010164285579415.webp?size=128&quality=lossless",
+      "bytes": 21454,
+      "sha256": "e013f5968e843486181d0e5dbf2126904cefd951d261ec6d52200ec03445344c"
+    },
+    {
+      "seasonId": 9,
+      "enumName": "LittlePrince",
+      "emojiId": "1561010169607880848",
+      "path": "/season-icons/9.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1561010169607880848.webp?size=128&quality=lossless",
+      "bytes": 19462,
+      "sha256": "edc01664bb886375935e268fbf899149d455191fccfe653abf3c67a6923f80fa"
+    },
+    {
+      "seasonId": 10,
+      "enumName": "Flight",
+      "emojiId": "1561010172460146778",
+      "path": "/season-icons/10.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1561010172460146778.webp?size=128&quality=lossless",
+      "bytes": 17870,
+      "sha256": "7b19ae3858395dfff9bfa760fb5bdbf5617e474dd76d76b6ae9328ad942a2927"
+    },
+    {
+      "seasonId": 11,
+      "enumName": "Abyss",
+      "emojiId": "1400936225598345216",
+      "path": "/season-icons/11.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1400936225598345216.webp?size=128&quality=lossless",
+      "bytes": 16672,
+      "sha256": "0562e9c9623d5cf9673d5c222f71598f13df7f88d6fb7d9d2e91bc7da2d1d11c"
+    },
+    {
+      "seasonId": 12,
+      "enumName": "Performance",
+      "emojiId": "1400934915398303754",
+      "path": "/season-icons/12.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1400934915398303754.webp?size=128&quality=lossless",
+      "bytes": 21954,
+      "sha256": "69c9a038b5bdd869cf10ecddc3997a3e34ebd7e70869831a0333b156ba4802f3"
+    },
+    {
+      "seasonId": 13,
+      "enumName": "Shattering",
+      "emojiId": "1561010177099178085",
+      "path": "/season-icons/13.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1561010177099178085.webp?size=128&quality=lossless",
+      "bytes": 11362,
+      "sha256": "10a75821ffdf01e7238078fd00ec885b211e4ac36e77cd1f1c1ec5c031ff574c"
+    },
+    {
+      "seasonId": 14,
+      "enumName": "AURORA",
+      "emojiId": "1561010182274809936",
+      "path": "/season-icons/14.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1561010182274809936.webp?size=128&quality=lossless",
+      "bytes": 18576,
+      "sha256": "ee8130f5c62665ab08fa46639b66fe5ba14bbd845c0ba2d64b7826fb840cd8ad"
+    },
+    {
+      "seasonId": 15,
+      "enumName": "Remembrance",
+      "emojiId": "1400932490536812675",
+      "path": "/season-icons/15.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1400932490536812675.webp?size=128&quality=lossless",
+      "bytes": 13654,
+      "sha256": "6cf971ed871633fabd4bbb71fbb3e34f8e143d14d09f3f70f48c14e967baab7e"
+    },
+    {
+      "seasonId": 16,
+      "enumName": "Passage",
+      "emojiId": "1561009729000575086",
+      "path": "/season-icons/16.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1561009729000575086.webp?size=128&quality=lossless",
+      "bytes": 16180,
+      "sha256": "41001c7b2cd0a72c2d824644a033d376e33bb12c7966639aa565d1bf9099924f"
+    },
+    {
+      "seasonId": 17,
+      "enumName": "Moments",
+      "emojiId": "1400931523506475028",
+      "path": "/season-icons/17.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1400931523506475028.webp?size=128&quality=lossless",
+      "bytes": 19836,
+      "sha256": "32ed77810c4d1af3327d7c3f6bc8b48f1643d4329f41f5c772a24cb8a84ab60e"
+    },
+    {
+      "seasonId": 18,
+      "enumName": "Revival",
+      "emojiId": "1313933185549336586",
+      "path": "/season-icons/18.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1313933185549336586.webp?size=128&quality=lossless",
+      "bytes": 19110,
+      "sha256": "3812298b596fa7d299d631738c2fba99a175f2ae14ff98f34ed1a97179706ced"
+    },
+    {
+      "seasonId": 19,
+      "enumName": "NineColouredDeer",
+      "emojiId": "1313933184299171891",
+      "path": "/season-icons/19.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1313933184299171891.webp?size=128&quality=lossless",
+      "bytes": 13202,
+      "sha256": "eefddea2cdef2c5aafe4df3414ea37eb12ea620b214efc704c86a7c24a5eadbc"
+    },
+    {
+      "seasonId": 20,
+      "enumName": "Nesting",
+      "emojiId": "1313933192218153040",
+      "path": "/season-icons/20.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1313933192218153040.webp?size=128&quality=lossless",
+      "bytes": 12068,
+      "sha256": "dbce96e9e96d42bfd6fde5e3e9027dfe617efb044efededc5a95665a7dcd9475"
+    },
+    {
+      "seasonId": 21,
+      "enumName": "Duets",
+      "emojiId": "1313933189068357737",
+      "path": "/season-icons/21.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1313933189068357737.webp?size=128&quality=lossless",
+      "bytes": 17486,
+      "sha256": "1cf7bd16270b7f6977ccf93c802777c1d76b55100f737c60dadfac0670b001be"
+    },
+    {
+      "seasonId": 22,
+      "enumName": "Moomin",
+      "emojiId": "1313933190699679753",
+      "path": "/season-icons/22.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1313933190699679753.webp?size=128&quality=lossless",
+      "bytes": 13870,
+      "sha256": "68fcddba175b188ec965dd932cc2b12539b8a851b3d2a83fd07e9264be336e1c"
+    },
+    {
+      "seasonId": 23,
+      "enumName": "Radiance",
+      "emojiId": "1330471315458621490",
+      "path": "/season-icons/23.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1330471315458621490.webp?size=128&quality=lossless",
+      "bytes": 11552,
+      "sha256": "eebecaa55ecaec217f02e62f56aa9923f337c01da8fa8e4f4159b5b95313cf1c"
+    },
+    {
+      "seasonId": 24,
+      "enumName": "BlueBird",
+      "emojiId": "1363537580578050400",
+      "path": "/season-icons/24.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1363537580578050400.webp?size=128&quality=lossless",
+      "bytes": 19214,
+      "sha256": "56205158eaf1f15f3fa3aeb51757afcbac8fa18336e06f139cdb36e60e93c67c"
+    },
+    {
+      "seasonId": 25,
+      "enumName": "TwoEmbersPart1",
+      "emojiId": "1392771944562163752",
+      "path": "/season-icons/25.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1392771944562163752.webp?size=128&quality=lossless",
+      "bytes": 15092,
+      "sha256": "1cc80a18fdf5973e5f57e08a797dd02cac27cc7fcdd92d9c1b5ce4ae8b966f18"
+    },
+    {
+      "seasonId": 26,
+      "enumName": "Migration",
+      "emojiId": "1536651408525492344",
+      "path": "/season-icons/26.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1536651408525492344.webp?size=128&quality=lossless",
+      "bytes": 25800,
+      "sha256": "8d5d3f009e612f5da1a468b2e9a1732045dc644fb9c939fa33b0bcae6d1cf1d1"
+    },
+    {
+      "seasonId": 27,
+      "enumName": "Lightmending",
+      "emojiId": "1461598394907758592",
+      "path": "/season-icons/27.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1461598394907758592.webp?size=128&quality=lossless",
+      "bytes": 13188,
+      "sha256": "20e9b51cb9c2f6ddc5376cc96d46983805f9b0ed27644973d5fb072ded9c0b4d"
+    },
+    {
+      "seasonId": 28,
+      "enumName": "Carnival",
+      "emojiId": "1536652027059380295",
+      "path": "/season-icons/28.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1536652027059380295.webp?size=128&quality=lossless",
+      "bytes": 20586,
+      "sha256": "29714baa3337b51d86c53cd4aa1b786f3664659e2ce9edc3abb6223f6c7901aa"
+    },
+    {
+      "seasonId": 29,
+      "enumName": "DearVanGogh",
+      "emojiId": "1561009787024703538",
+      "path": "/season-icons/29.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1561009787024703538.webp?size=128&quality=lossless",
+      "bytes": 24504,
+      "sha256": "b0fba5247dc0ac6a211fb9b5eeaa756f2e813ec571540f09c9307e5fa980ff5e"
+    },
+    {
+      "seasonId": 30,
+      "enumName": "Pearl",
+      "emojiId": "1555728518870999280",
+      "path": "/season-icons/30.webp",
+      "sourceUrl": "https://cdn.discordapp.com/emojis/1555728518870999280.webp?size=128&quality=lossless",
+      "bytes": 23268,
+      "sha256": "c95da746c8784fed7f994c8390f9fe7d40120866c059e54b1070d861c558340e"
+    }
+  ]
+}

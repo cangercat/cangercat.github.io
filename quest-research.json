@@ -1,0 +1,274 @@
+{
+  "history": {
+    "days": 730,
+    "firstDate": "2024-10-23",
+    "lastDate": "2026-10-22",
+    "collectedAt": "2026-10-23T02:21:38.284470+00:00",
+    "catalogueRevision": "3e67e65e9b13ca980ddfe600a11709c84f07d323"
+  },
+  "model": {
+    "selected": {
+      "family": "repeat",
+      "lag": 20
+    },
+    "selectionWindow": [
+      "2026-02-25",
+      "2026-05-25"
+    ],
+    "trainingEnds": "2026-02-24",
+    "holdoutWindow": [
+      "2026-05-26",
+      "2026-07-24"
+    ],
+    "selectionMetric": "questRate then exactRate",
+    "candidatesCompared": 451,
+    "catalogueRevision": "3e67e65e9b13ca980ddfe600a11709c84f07d323",
+    "sha256": "737348ad9f24ccf04dec87b84e84f9ea1472b02b76fbaf7aa5f677c164322ae6"
+  },
+  "metrics": {
+    "validation": {
+      "tested": 90,
+      "exact": 0,
+      "matched": 75,
+      "exactRate": 0.0,
+      "questRate": 0.20833333333333334,
+      "anyHitRate": 0.6,
+      "realmTested": 87,
+      "realmHit": 87,
+      "realmRate": 1.0
+    },
+    "sealedHoldout": {
+      "tested": 60,
+      "exact": 0,
+      "matched": 50,
+      "exactRate": 0.0,
+      "questRate": 0.20833333333333334,
+      "anyHitRate": 0.7,
+      "realmTested": 56,
+      "realmHit": 56,
+      "realmRate": 1.0
+    },
+    "previouslySeenRecent": {
+      "tested": 90,
+      "exact": 1,
+      "matched": 79,
+      "exactRate": 0.011111111111111112,
+      "questRate": 0.21944444444444444,
+      "anyHitRate": 0.6333333333333333,
+      "realmTested": 89,
+      "realmHit": 89,
+      "realmRate": 1.0
+    }
+  },
+  "improvement": {
+    "frequency": {
+      "days": 60,
+      "difference": 0.10416666666666667,
+      "lower95": 0.07083333333333333,
+      "upper95": 0.1375,
+      "method": "paired circular 7-day block bootstrap, 2000 samples, fixed seed"
+    },
+    "legacy": {
+      "days": 60,
+      "difference": 0.10833333333333334,
+      "lower95": 0.075,
+      "upper95": 0.14583333333333334,
+      "method": "paired circular 7-day block bootstrap, 2000 samples, fixed seed"
+    }
+  },
+  "horizons": {
+    "1": {
+      "testedHorizon": 1,
+      "metrics": {
+        "tested": 60,
+        "exact": 0,
+        "matched": 50,
+        "exactRate": 0.0,
+        "questRate": 0.20833333333333334,
+        "anyHitRate": 0.7,
+        "realmTested": 56,
+        "realmHit": 56,
+        "realmRate": 1.0
+      },
+      "contentAvailable": true
+    },
+    "7": {
+      "testedHorizon": 7,
+      "metrics": {
+        "tested": 60,
+        "exact": 0,
+        "matched": 50,
+        "exactRate": 0.0,
+        "questRate": 0.20833333333333334,
+        "anyHitRate": 0.7,
+        "realmTested": 56,
+        "realmHit": 56,
+        "realmRate": 1.0
+      },
+      "contentAvailable": true
+    },
+    "30": {
+      "testedHorizon": 30,
+      "metrics": {
+        "tested": 60,
+        "exact": 0,
+        "matched": 27,
+        "exactRate": 0.0,
+        "questRate": 0.1125,
+        "anyHitRate": 0.4,
+        "realmTested": 56,
+        "realmHit": 56,
+        "realmRate": 1.0
+      },
+      "contentAvailable": false
+    }
+  },
+  "older100DayPattern": {
+    "label": "Exploratory after selection; not used to choose the current model",
+    "quarters": [
+      {
+        "start": "2024-10-23",
+        "end": "2024-12-31",
+        "lag100": {
+          "tested": 70,
+          "exact": 0,
+          "matched": 29,
+          "exactRate": 0.0,
+          "questRate": 0.10357142857142858,
+          "anyHitRate": 0.35714285714285715,
+          "realmTested": 67,
+          "realmHit": 67,
+          "realmRate": 1.0
+        }
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-03-31",
+        "lag100": {
+          "tested": 90,
+          "exact": 12,
+          "matched": 175,
+          "exactRate": 0.13333333333333333,
+          "questRate": 0.4861111111111111,
+          "anyHitRate": 0.7555555555555555,
+          "realmTested": 90,
+          "realmHit": 90,
+          "realmRate": 1.0
+        }
+      },
+      {
+        "start": "2025-04-01",
+        "end": "2025-06-30",
+        "lag100": {
+          "tested": 91,
+          "exact": 16,
+          "matched": 261,
+          "exactRate": 0.17582417582417584,
+          "questRate": 0.717032967032967,
+          "anyHitRate": 1.0,
+          "realmTested": 91,
+          "realmHit": 91,
+          "realmRate": 1.0
+        }
+      },
+      {
+        "start": "2025-07-01",
+        "end": "2025-09-30",
+        "lag100": {
+          "tested": 92,
+          "exact": 10,
+          "matched": 214,
+          "exactRate": 0.10869565217391304,
+          "questRate": 0.5815217391304348,
+          "anyHitRate": 0.9891304347826086,
+          "realmTested": 87,
+          "realmHit": 86,
+          "realmRate": 0.9885057471264368
+        }
+      },
+      {
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "lag100": {
+          "tested": 92,
+          "exact": 2,
+          "matched": 119,
+          "exactRate": 0.021739130434782608,
+          "questRate": 0.3233695652173913,
+          "anyHitRate": 0.7934782608695652,
+          "realmTested": 90,
+          "realmHit": 89,
+          "realmRate": 0.9888888888888889
+        }
+      },
+      {
+        "start": "2026-01-01",
+        "end": "2026-03-31",
+        "lag100": {
+          "tested": 90,
+          "exact": 0,
+          "matched": 44,
+          "exactRate": 0.0,
+          "questRate": 0.12222222222222222,
+          "anyHitRate": 0.43333333333333335,
+          "realmTested": 86,
+          "realmHit": 86,
+          "realmRate": 1.0
+        }
+      },
+      {
+        "start": "2026-04-01",
+        "end": "2026-06-30",
+        "lag100": {
+          "tested": 91,
+          "exact": 0,
+          "matched": 40,
+          "exactRate": 0.0,
+          "questRate": 0.10989010989010989,
+          "anyHitRate": 0.3956043956043956,
+          "realmTested": 86,
+          "realmHit": 86,
+          "realmRate": 1.0
+        }
+      },
+      {
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "lag100": {
+          "tested": 92,
+          "exact": 0,
+          "matched": 54,
+          "exactRate": 0.0,
+          "questRate": 0.14673913043478262,
+          "anyHitRate": 0.45652173913043476,
+          "realmTested": 92,
+          "realmHit": 92,
+          "realmRate": 1.0
+        }
+      },
+      {
+        "start": "2026-10-01",
+        "end": "2026-10-22",
+        "lag100": {
+          "tested": 22,
+          "exact": 0,
+          "matched": 9,
+          "exactRate": 0.0,
+          "questRate": 0.10227272727272728,
+          "anyHitRate": 0.2727272727272727,
+          "realmTested": 21,
+          "realmHit": 21,
+          "realmRate": 1.0
+        }
+      }
+    ]
+  },
+  "warnings": [
+    "Current community page snapshot, not original game server logs.",
+    "Catalogue categories partly analyst-derived; unknown stays unknown.",
+    "Five documented community IDs may have changed semantics; raw historical titles are retained.",
+    "The recent 90-day window was seen before this study; it is not a new blind test.",
+    "A dominant-map metric is based on quest metadata and excludes ambiguous days.",
+    "One-day and 7/30-day metrics are different; no future observation is used at longer horizons."
+  ]
+}

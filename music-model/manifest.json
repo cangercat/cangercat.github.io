@@ -1,0 +1,23 @@
+{
+  "package": "@spotify/basic-pitch",
+  "version": "1.0.1",
+  "source": "https://github.com/spotify/basic-pitch-ts",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "name": "model.json",
+      "bytes": 174537,
+      "sha256": "1ed1aaee3409ec1dc098c8b01f430c0911f6fe9412e7af8086750f9e8f302f68"
+    },
+    {
+      "name": "group1-shard1of1.bin",
+      "bytes": 742392,
+      "sha256": "b142a95737a52e1e412d5f92e73d8bb80dfe8d04941acc0702f11f4524fb377c"
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ]
+}

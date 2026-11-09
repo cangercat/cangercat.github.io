@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-25T10:46:31.508Z",
+  "simpleIconsRevision": "90646e4bf7f3b89df6c37e65baf3e7bc759a517c",
+  "license": "Simple Icons SVG paths CC0-1.0; brand trademarks belong to their respective owners. Nintendo and Game Center PNG images are supplied by their respective official account/developer sites.",
+  "items": [
+    {
+      "id": "google",
+      "path": "/binding-icons/google.svg",
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/90646e4bf7f3b89df6c37e65baf3e7bc759a517c/icons/google.svg",
+      "bytes": 457,
+      "sha256": "d8cf9fb2d5e234e03254f1d6400d8cc8160c309b010d031a64f37084b5a21d01"
+    },
+    {
+      "id": "apple",
+      "path": "/binding-icons/apple.svg",
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/90646e4bf7f3b89df6c37e65baf3e7bc759a517c/icons/apple.svg",
+      "bytes": 650,
+      "sha256": "2a1509dccd25e6d2bc7a11a8e52941077e1a48555e192ce638699b9f083c2a7c"
+    },
+    {
+      "id": "facebook",
+      "path": "/binding-icons/facebook.svg",
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/90646e4bf7f3b89df6c37e65baf3e7bc759a517c/icons/facebook.svg",
+      "bytes": 542,
+      "sha256": "b06d18d844ed621b89faffb1a33440cc0ec4f1ffea9f36191f50db19a47c59a6"
+    },
+    {
+      "id": "steam",
+      "path": "/binding-icons/steam.svg",
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/90646e4bf7f3b89df6c37e65baf3e7bc759a517c/icons/steam.svg",
+      "bytes": 1036,
+      "sha256": "5eef8f31106b81956ed908490bcf8c73abe476aa58bb9041acdf70b0d42ebcae"
+    },
+    {
+      "id": "playstation",
+      "path": "/binding-icons/playstation.svg",
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/90646e4bf7f3b89df6c37e65baf3e7bc759a517c/icons/playstation.svg",
+      "bytes": 781,
+      "sha256": "b68b4d7b63443759b9c4d77a5501c5758eeae06a6d594d278d5eb6cb4d3dbbe4"
+    },
+    {
+      "id": "huawei",
+      "path": "/binding-icons/huawei.svg",
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/90646e4bf7f3b89df6c37e65baf3e7bc759a517c/icons/huawei.svg",
+      "bytes": 1323,
+      "sha256": "eb43e0a9450cef22ce70d624a60622a0aa542142102e402a293578b388b876f5"
+    },
+    {
+      "id": "nintendo",
+      "path": "/binding-icons/nintendo.png",
+      "url": "https://accounts.nintendo.com/touch-icon.png?t=1678156809",
+      "bytes": 6082,
+      "sha256": "38d82d49b00d853836ee9e6099bbd4de18e984d67e8822d49c0bf271461091ea"
+    },
+    {
+      "id": "gamecenter",
+      "path": "/binding-icons/gamecenter.png",
+      "url": "https://developer.apple.com/assets/elements/icons/game-center/game-center-128x128_2x.png",
+      "bytes": 57418,
+      "sha256": "06fc6cdd3a5c914c3c050090fee674a4fb7044cb8cf1f99e0fcd2b259865a0f6"
+    }
+  ]
+}
