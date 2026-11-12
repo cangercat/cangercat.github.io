@@ -1,0 +1,1 @@
+import{i as e}from"./index-D0tRtf-1.js";import{A as t}from"./account-provider-Dj0c31OG.js";var n=null,r=0;function i(){return n&&Date.now()-r<3e5?n:(r=Date.now(),n=e(`/api/merchandise`).then(async e=>{if(!e.ok)throw Error();return t((await e.json()).data)}).catch(()=>{throw n=null,Error(`The collection could not be loaded. Try again.`)}),n)}export{i as t};
